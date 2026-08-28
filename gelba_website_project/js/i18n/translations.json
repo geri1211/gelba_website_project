@@ -1,0 +1,16 @@
+{
+  "en": {
+    "site.welcome": "GeLba Clothing",
+    "nav.home": "Home",
+    "nav.products": "Products",
+    "nav.contact": "Contact",
+    "nav.news": "Fashion News"
+  },
+  "es": {
+    "site.welcome": "Ropa GeLba", 
+    "nav.home": "Inicio",
+    "nav.products": "Productos",
+    "nav.contact": "Contacto",
+    "nav.news": "Noticias"
+  }
+}

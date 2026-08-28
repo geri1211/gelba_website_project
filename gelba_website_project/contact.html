@@ -1,0 +1,113 @@
+<!doctype html> <!--ReqH1-->
+<html lang="en-GB">
+<head>
+<meta charset="utf-8"> <!--ReqH2-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--ReqH2-->
+<title>Contact GeLba</title>
+<meta name="author" content="Student"> <!--ReqH2-->
+<meta name="description" content="Contact GeLba clothing brand">
+<meta name="keywords" content="contact, gelba">
+<link rel="stylesheet" href="CSS/styles.css">
+<link rel="stylesheet" href="CSS/single-page.css">
+<!-- ReqJ1 -->
+<script src="js/myJS.js" defer></script>
+</head>
+
+<body>
+
+<header> <!--ReqH3-->
+<h1>Contact GeLba</h1>
+
+<nav> <!--ReqH8-->
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+
+<section>
+<h2>Customer Contact Form</h2>
+<p>Here you can contact us for every question that you may have.</p>
+
+<form action="mailto:info@gelba.com" onsubmit="return validateForm()"> <!--ReqH16-->
+<div id="preview">
+
+  <label for= "name">Name:</label>
+<input type="text" name="name" id="name" required
+       oninput="updatePreview(); checkValidityState(this)"
+       onkeydown="handleKey(event, this)"
+       onmouseover="mouseOver(this)"
+       onmouseout="mouseOut(this)"><!--ReqH17-->
+</div>
+<br><br>
+<div id="errorBox" style="display:none; color:red;">
+<label>
+    <input type="radio" name="gender" value="male"
+       onchange="updatePreview()">
+
+      Male
+    </label><br>
+
+    <label>
+      <input type="radio" name="gender" value="female"   onchange="updatePreview()">
+      Female
+    </label><br>
+
+    <label>
+      <input type="radio" name="gender" value="prefer_not_to_say"   onchange="updatePreview()">
+      Prefer not to say
+    </label>
+    <br><br>
+</div> 
+<label for="emaill">Email:</label>
+<input type="email" id="email" name="email" required
+       oninput="updatePreview(); checkValidityState(this)"
+       onkeydown="handleKey(event, this)"
+       onmouseover="mouseOver(this)"
+       onmouseout="mouseOut(this)"> <!--ReqH17-->
+<label for="confirmEmail">Confirm Email</label>
+<input type="email" id="confirmEmail" name="confirmEmail" required
+       oninput="updatePreview(); checkValidityState(this)">
+<br><br>
+
+<label for="password">Password:</label>
+<!-- ReqJ2 ReqJ3 ReqJ7 ReqJ8 -->
+<input type="password" id="password" name="password" required
+       oninput="updatePreview(); checkValidityState(this)"
+       onkeydown="handleKey(event, this)"
+       onmouseover="mouseOver(this)"
+       onmouseout="mouseOut(this)"> <!--ReqH17-->
+<br><br>
+
+<label for="phone">Telephone:</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{9}" required> <!--ReqH18-->
+<br><br>
+
+<label for="message">Message:</label>
+<textarea name="message" required
+          oninput="updatePreview(); checkValidityState(this)"
+          onkeydown="handleKey(event, this)"
+          onmouseover="mouseOver(this)"
+          onmouseout="mouseOut(this)"></textarea> <!--ReqH17-->
+<br><br>
+
+<input type="submit" value="Send" class="btn"> <!--ReqH19-->
+<input type="reset" value="Reset" class="btn"> <!--ReqH19-->
+
+</form>
+
+</section>
+
+</main>
+<footer>
+<p> GeLba Clothing</p>
+</footer>
+</body>
+
+
+
+</html>

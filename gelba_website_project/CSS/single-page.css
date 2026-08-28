@@ -1,0 +1,75 @@
+main /* ReqS5 */ {
+    width: 85vw;
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+p::first-letter  /* ReqS6 */
+{
+    font-size: 200%;
+    font-weight: bold;
+}
+#citing /* ReqS9 */{
+    font-size: 2em;
+    color: #cc2;
+    padding: 1em;
+    margin: 1em;
+}
+nav>ul /* ReqS10 */{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li /* ReqS11 */{
+    display: inline-block;
+    padding: 2px;
+
+}
+ul+li  /* ReqS12 */{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a /* ReqS13 */{display: inline-block;
+padding: 0.6em 1em;
+margin: 0.2em;
+color:white;
+background-color:blue;
+border-radius: 5px;
+font-size:0.9rem;
+text-decoration: none;
+}
+nav a:hover /* ReqS14 */{
+    background-color:darkblue;
+}
+
+.lists /* ReqS15 */{
+    list-style-type: square;
+    margin:1px;
+}
+table /* ReqS16 */{
+    border:1px solid black;
+    margin: 1em;
+    border-collapse: collapse;
+    width: 65vw;
+    font-weight:bold;
+
+}
+.valid {
+    border: 2px solid green;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+/* ReqI11 */
+:lang(en) footer {
+    background-color: lightblue;
+}
+
+/* ReqI11 */
+:lang(es) footer {
+    background-color: lightcoral;
+}
