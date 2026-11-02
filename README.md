@@ -1,6 +1,7 @@
 # Web Development Project
 
-A responsive and interactive website developed using HTML, CSS and JavaScript. This project focuses on front-end web development, combining structured HTML, custom CSS styling and JavaScript functionality to create a modern, user-friendly experience that adapts to different screen sizes.
+A responsive and interactive website developed using HTML, CSS and JavaScript. This project focuses on front-end web development, combining structured HTML, custom CSS styling and JavaScript functionality to create a modern, user-friendly experience that adapts to different screen sizes. 
+This is a course work given by university of Oviedo(Spain)
 
 ---
 
